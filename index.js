@@ -12,7 +12,7 @@ const news = require('./data/news')
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('NEW API 666')
+    res.send('NEW API 5000')
 });
 
 app.get('/news-categories', (req, res) => {
